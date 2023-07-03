@@ -163,8 +163,8 @@ export default function Inputtt() {
         </div>
 
         <div>
-          <h2 style={styles.sectionHeading}>Recent Searches</h2>
-          <div style={styles.recentSearchesContainer}>
+{/*           <h2 style={styles.sectionHeading}>Recent Searches</h2> 
+            <div style={styles.recentSearchesContainer}>
             {recentSearches
               // .filter((search) => search.itinerary) // Filter out searches without itinerary content
               .map((search, index) => (
@@ -183,8 +183,8 @@ export default function Inputtt() {
                     ))}
                   </div>
                 </div>
-              ))}
-          </div>
+              ))} 
+          </div> */}
         </div>
 
         <div>
