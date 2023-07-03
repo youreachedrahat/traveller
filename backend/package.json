@@ -1,0 +1,31 @@
+{
+  "name": "tiny_coders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hrushi01/tiny_coders.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hrushi01/tiny_coders/issues"
+  },
+  "engines": {
+    "node": ">=14.20.1"
+  },
+  "homepage": "https://github.com/Hrushi01/tiny_coders#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0",
+    "proxy-middleware": "^0.15.0"
+  }
+}

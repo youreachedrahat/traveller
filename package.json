@@ -1,0 +1,23 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.20.1"
+  },
+  "scripts": {
+    "dev": "concurrently \"cd client && npm start\" \"cd backend && npm start\"",
+    "build": "cd client && npm run build",
+    "client": "cd client && npm start",
+    "backend": "cd backend && npm start",
+    "start": "npm run build && npm run backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "path": "^0.12.7"
+  }
+}
