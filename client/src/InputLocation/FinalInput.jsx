@@ -166,7 +166,7 @@ export default function Inputtt() {
           <h2 style={styles.sectionHeading}>Recent Searches</h2>
           <div style={styles.recentSearchesContainer}>
             {recentSearches
-              .filter((search) => search.itinerary) // Filter out searches without itinerary content
+              // .filter((search) => search.itinerary) // Filter out searches without itinerary content
               .map((search, index) => (
                 <div className="card" style={styles.card} key={index}>
                   <p className="city" style={styles.city}>
