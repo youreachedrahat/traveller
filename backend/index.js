@@ -11,7 +11,7 @@ const dotenv = require("dotenv");
 dotenv.config({
   path: "./.env",
 });
-
+const PORT = process.env.PORT;
 app.use(bodyParser.json());
 
 const mongoURL = process.env.MONGO_URI;
@@ -70,8 +70,8 @@ app.get("/api/recentSearches", async (req, res) => {
   }
 });
 
-const port = process.env.PORT || 8080;
-
-app.listen(port, () => {
-  console.log(`Application listening on PORT ${port}`);
+app.listen(PORT, (Error) => {
+  console.log(`Application listening on PORT ${PORT}`);
 });
+
+
